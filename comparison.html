@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Latitude</title>
+    <title>Latitude: Comparison</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Container for Bootstrap -->
-<div class="container-fluid" >
+<div class="container-fluid">
     <!-- Navbar -->
     <nav class="navbar position-sticky sticky-top navbar-expand navbar-light bg-light p-0 m-0" id="navi-large">
         <a class="navbar-brand bg-info align-middle px-1 ml-5 text-light font-weight-bold float-left" href="Landing.html">Latitude</a>
@@ -88,54 +88,42 @@
     </div>
   </div>
 <!-- End of Small Navbar -->
-<!-- Large Content -->
-      <div class="row m-3" id="large-content">
-        <div class="col-7 mr-4 pr-5 bg-light">
-          <div class="plot1 p-3 text-info font-weight-bold">Summary: Latitude Vs. X</div>
-          <hr class="p-2">
-          <img class="w-50 pl-3 pr-4 float-left" src="Resources/assets/images/Fig1.png" alt="Figure 1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel, reprehenderit distinctio odit explicabo, est nemo consectetur itaque quidem incidunt pariatur earum natus, voluptate ex eveniet. Ab, tenetur dolorum. Porro. The purpose of this project was to analyze how temperature and humidity change as we approach the equator.
-        </div>
-        <div class="col-4 ml-4 pl-4 bg-light pb-3">
-            <div class="side-panel p-3 text-info font-weight-bold">Visualizations</div>
+<!-- Comparison Content -->
+<div class="row mb-5 justify-content-center" id="largeComp">
+    <div class="col-11 m-4 bg-light">
+        <div class="side-panel p-3 text-info font-weight-bold">Comparison: Latitude vs. X</div>
             <hr class="p-2">
+        <div class="p-2 justify-content-start">Click on any visualization to get an in-depth analysis.</div><br>
             <a href="#"><img src="Resources/assets/images/Fig1.png" alt="Figure 1" class="w-50 p-2 float-left"></a>            
             <a href="#"><img src="Resources/assets/images/Fig2.png" alt="Figure 2" class="w-50 p-2 float-right"></a><br>
             <a href="#"><img src="Resources/assets/images/Fig3.png" alt="Figure 3" class="w-50 p-2 float-left"></a>
             <a href="#"><img src="Resources/assets/images/Fig4.png" alt="Figure 4" class="w-50 p-2 float-right"></a>
-        </div>
-      </div>
-<!-- End of Large Content -->
-<!-- Small Content -->
-      <div class="row bg-light mt-3 mb-5" id="small-content">
+    </div>
+</div>
+<div class="row mb-5 justify-content-center" id="smallComp">
         <div class="col-11 m-4 bg-light">
-          <div class="plot1 p-3 text-info font-weight-bold">Summary: Latitude Vs. X</div>
-          <hr class="p-2">
-          <img class="w-50 pl-3 pr-4 float-left" src="Resources/assets/images/Fig1.png" alt="Figure 1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel, reprehenderit distinctio odit explicabo, est nemo consectetur itaque quidem incidunt pariatur earum natus, voluptate ex eveniet. Ab, tenetur dolorum. Porro. The purpose of this project was to analyze how temperature and humidity change as we approach the equator.
+            <div class="side-panel p-3 text-info font-weight-bold">Comparison: Latitude vs. X</div>
+                <hr class="p-2">
+            <div class="p-2 justify-content-start">Click on any visualization to get an in-depth analysis.</div><br>
+                <a href="#"><img src="Resources/assets/images/Fig1.png" alt="Figure 1" class="w-100 p-2 justify-content-center"></a><br>            
+                <a href="#"><img src="Resources/assets/images/Fig2.png" alt="Figure 2" class="w-100 p-2 justify-content-center"></a><br>
+                <a href="#"><img src="Resources/assets/images/Fig3.png" alt="Figure 3" class="w-100 p-2 justify-content-center"></a><br>
+                <a href="#"><img src="Resources/assets/images/Fig4.png" alt="Figure 4" class="w-100 p-2 justify-content-center"></a>
         </div>
-        <div class="col-11 m-4 bg-light">
-            <div class="side-panel p-3 text-info font-weight-bold">Visualizations</div>
-            <hr class="p-2">
-            <a href="#"><img src="Resources/assets/images/Fig1.png" alt="Figure 1" class="w-50 p-2 float-left"></a>            
-            <a href="#"><img src="Resources/assets/images/Fig2.png" alt="Figure 2" class="w-50 p-2 float-right"></a><br>
-            <a href="#"><img src="Resources/assets/images/Fig3.png" alt="Figure 3" class="w-50 p-2 float-left"></a>
-            <a href="#"><img src="Resources/assets/images/Fig4.png" alt="Figure 4" class="w-50 p-2 float-right"></a>
-        </div>
-      </div>
-<!-- End of Small Content -->
+    </div>
+<!-- End of Comparison Content -->
 <!-- Bottom Bar -->
-      <div class="row fixed-bottom bg-info pt-1">
-        <div class="col-12 bg-secondary pt-3 pb-3 text-center text-light font-weight-light">
-          Francisco Julian Yáñez
-        </div>
-      </div>
+<div class="row fixed-bottom bg-info pt-1">
+    <div class="col-12 bg-secondary pt-3 pb-3 text-center text-light font-weight-light">
+      Francisco Julian Yáñez
+    </div>
+  </div>
 <!-- End of Bottom Bar -->
 </div>
-<!-- End of Container -->
+<!-- End of Container for Bootstrap -->
 <!-- Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

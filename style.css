@@ -49,3 +49,21 @@ a{
         display: none;
     }
 }
+
+#smallComp{
+    display: inline-flexbox;
+}
+@media (min-width: 768px){
+    #smallComp{
+        display: none;
+    }
+}
+
+#largeComp{
+    display: inline-flexbox;
+}
+@media (max-width: 768px){
+    #largeComp{
+        display: none;
+    }
+}
