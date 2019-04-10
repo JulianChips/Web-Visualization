@@ -15,16 +15,16 @@ a{
     color: grey;
 }
 #navi-large {
-    display: none;
+    display: inline-flexbox;
   }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     #navi-large {
-      display: inherit;
+      display: none;
     }
   }
 
 #small-nav{
-    display: initial;
+    display: inline-flexbox;
 }
 @media (min-width: 768px) {
     #small-nav{
