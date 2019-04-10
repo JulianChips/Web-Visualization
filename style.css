@@ -7,3 +7,45 @@ body{
 .side-panel{
     font-size: 30px;
 }
+ul.dropdownPlots{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+#navi-large {
+    display: none;
+  }
+@media (min-width: 768px) {
+    #navi-large {
+      display: inherit;
+    }
+  }
+
+#small-nav{
+    display: initial;
+}
+@media (min-width: 768px) {
+    #small-nav{
+        display: none;
+    }
+}
+
+#small-content{
+    display: inline-flexbox;
+}
+@media (min-width: 768px){
+    #small-content{
+        display: none;
+    }
+}
+
+#large-content{
+    display: inline-flexbox;
+}
+@media (max-width: 768px){
+    #large-content{
+        display: none;
+    }
+}
