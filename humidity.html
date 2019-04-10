@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latitude: Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Container for Bootstrap -->
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar position-sticky sticky-top navbar-expand navbar-light bg-light p-0 m-0" id="navi-large">
+            <a class="navbar-brand bg-info align-middle px-1 ml-5 text-light font-weight-bold float-left" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+    
+              </ul>
+            </div>
+          </nav>
+          <!-- end of navbar --><br>
+    
+    <!-- Small Navbar -->
+    <div class="pos-f-t position-sticky sticky-top" id="small-nav">
+        <nav class="navbar navbar-dark bg-info">
+          <a class="navbar-brand bg-info pl-1 ml-3 text-light font-weight-bold justify-content-start" href="index.html">Latitude</a>
+          <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon justify-content-end"></span>
+          </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-light p-4">
+              <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                          <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Plots
+                          </a>
+                        <div class="collapse" id="collapseExample">
+                          <div >
+                            <ul class='dropdownPlots'>
+                              <li>
+                                <a href="maxtemp.html">Max Temperature</a>
+                              </li>
+                              <li>
+                                <a href="humidity.html">Humidity</a>
+                              </li>
+                              <li>
+                                <a href="cloudiness.html">Cloudiness</a>
+                              </li>
+                              <li>
+                                <a href="windspeed.html">Wind Speed</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                  </li>
+      
+                </ul>
+          </div>
+        </div>
+      </div>
+    <!-- End of Small Navbar -->
+<!-- Large Content -->
+<div class="row mt-3 mb-3 justify-content-center" id="large-content">
+        <div class="col-7 mr-4 pr-5 bg-light">
+          <div class="plot1 p-3 text-info font-weight-bold">Summary: Latitude Vs. Humidity</div>
+          <hr class="p-2">
+          <img class="w-50 pl-3 pr-4 float-left" src="Resources/assets/images/Fig2.png" alt="Figure 2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel, reprehenderit distinctio odit explicabo, est nemo consectetur itaque quidem incidunt pariatur earum natus, voluptate ex eveniet. Ab, tenetur dolorum. Porro. The purpose of this project was to analyze how temperature and humidity change as we approach the equator.
+        </div>
+        <div class="col-4 ml-4 pl-4 bg-light pb-3">
+            <div class="side-panel p-3 text-info font-weight-bold">Visualizations</div>
+            <hr class="p-2">
+            <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="Figure 1" class="w-50 p-2 float-left"></a>            
+            <img src="Resources/assets/images/Fig2.png" alt="Figure 2" class="w-50 p-2 float-right"><br>
+            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Figure 3" class="w-50 p-2 float-left"></a>
+            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Figure 4" class="w-50 p-2 float-right"></a>
+        </div>
+      </div>
+<!-- End of Large Content -->
+<!-- Small Content -->
+      <div class="row justify-content-center mt-3 mb-5" id="small-content">
+        <div class="col-11 m-2 p-3 bg-light">
+          <div class="plot1 p-3 text-info font-weight-bold">Summary: Latitude Vs. Humidity</div>
+          <hr class="p-2">
+          <img class="w-100 pl-3 pr-4 justify-content-center" src="Resources/assets/images/Fig2.png" alt="Figure 2"><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel, reprehenderit distinctio odit explicabo, est nemo consectetur itaque quidem incidunt pariatur earum natus, voluptate ex eveniet. Ab, tenetur dolorum. Porro. The purpose of this project was to analyze how temperature and humidity change as we approach the equator.
+        </div>
+        <div class="col-11 mt-3 mb-5 p-3 bg-light">
+            <div class="side-panel p-3 text-info font-weight-bold">Visualizations</div>
+            <hr class="p-2">
+            <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="Figure 1" class="w-50 p-2 float-left"></a>            
+            <img src="Resources/assets/images/Fig2.png" alt="Figure 2" class="w-50 p-2 float-right"><br>
+            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Figure 3" class="w-50 p-2 float-left"></a>
+            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="Figure 4" class="w-50 p-2 float-right"></a>
+        </div>
+      </div>
+<!-- End of Small Content -->
+
+    <!-- Bottom Bar -->
+        <div class="row fixed-bottom bg-info pt-1">
+            <div class="col-12 bg-secondary pt-3 pb-3 text-center text-light font-weight-light">
+              Francisco Julian Yáñez
+            </div>
+        </div>
+    <!-- End of Bottom Bar -->    
+    </div>
+<!-- End of Container for Bootstrap -->
+<!-- Javascript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
